@@ -77,6 +77,25 @@ color: #ffffff;
 }
  
 
+/* carousel */ 
+
+#carouselExampleIndicators img {
+    width: 233px ;
+    height: 170px;
+    margin-top: 30px;
+  
+}
+
+#Carrousel {
+    margin-top: 40px;
+}
+
+#IdentityCarousel div li {
+    background-color: rgb(5, 3, 3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; }
+
    /* experiencia */
 
 .fontExp {
@@ -102,3 +121,26 @@ color: #ffffff;
           ;
       }
   }
+
+
+
+
+  /* FOOTER */
+
+  .finfooter {
+      font-size: 30px;
+      height: 150px;
+      background-color: seagreen;
+      text-align: center;
+      padding: 40px;
+      font-family: 'Special Elite', cursive;
+      
+  }
+
+
+  .finfooter a{ 
+ 
+    color: #ffffff;
+    margin-left: 10px;}
+  
+    

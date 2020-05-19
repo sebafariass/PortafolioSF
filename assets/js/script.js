@@ -1,1 +1,5 @@
-console.log('hola mundo')
+$(document).ready(function(){
+    $("button").click(function(){
+      $("p").toggle();
+    });
+  });
