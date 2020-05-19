@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Nav - botonNav- li */
+
+#PrincipalNav{
+background-color: rgb(18, 19, 41);
+color: #ffffff;
+
+}
+
+
+.logo {
+  color: #ffffff;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
+
+#navbarNavAltMarkup {
+    font-size: 20px;
+}
+
+
+
+/* seccion header */ 
+
+.ImagePrincipal { 
+    text-align : right;
+    background-image: url(../img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 50px;
+    color: #ffffff;
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Special Elite', cursive;
+
+   }
+
+
+   /* Inicios */
+
+   .bioHr{
+       height: 1px;
+       background-color: chocolate;
+
+   }
+   .bioInfo { margin-top: 80px;
+           
+}
+
+   .parrafotext {
+       margin-top: 20px;
+       color: #303030;
+       font-size: 50px;
+   }
+
+   /* Seccion Inicio desaparece */
+   @media (max-width:560px) {
+    #Biografia {
+        display: none;
+    }
+  
+    
+}
+ 
+
+   /* experiencia */
+
+.fontExp {
+    font-size: 50px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+  .showExp {
+      margin-top: 70px;
+  }
+
+  .expHr {
+      height: 1px;
+      background-color: chocolate;
+  }
+
+
+  
+  @media (max-width: 560px) {
+      .expHr {
+          display: none
+          ;
+      }
+  }

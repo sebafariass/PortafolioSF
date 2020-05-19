@@ -4,22 +4,328 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- codigo bootstrap-->
+<!-- Font awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <!-- codigo bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Portafolio</title>
 </head>
 <body>
-asdsssssssssasdasdaasdsdasdasdasd
-    <h1>asdasd</h1>
-
-    <div class="container">
-        <div class="row">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde corporis repudiandae eius corrupti aut, ducimus quaerat ratione cupiditate explicabo ipsum rerum dolores </p>
+    <nav class="navbar navbar-expand-md navbar-dark" id="PrincipalNav">
+        <div class="container"> 
+            <span class="logo"><a class="nav-link">LIFE</a></span>
+       
+                  <!--menu toggler -->
+                  <button type="button" class="navbar-toggler" data-toggle="collapse"  data-target="#navbarNavAltMarkup"
+                  aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+              <!-- Lista de Nav-->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              
+                  <ul class="navbar-nav ml-auto">
+                   
+                     <li class="nav-item"><a class="nav-link text-light"  href="#inicio"></a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#Biografia">Conoceme</a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#productos">Productos</a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#contacto">Contacto</a></li>
+                  </ul> 
+       
+                </div>
         </div>
-
-    </div>
+    </nav>
     
+    
+    <header class="ImagePrincipal container-fluid" id="Inicio" >
+        <h1>YO SOY</h1>
+   
+       <h2>SEBASTIÁN</h2>
+      </header>
+
+<div class="container">
+    <!-- BIOGRaFIA-->
+    <section id="Biografia" class="bioInfo">
+        <div class="container text-center">
+          <h1 class="parrafotext text-center"> Inicios</h1>
+          <hr class="bioHr">
+     
+            <div class="row col-12 "> 
+
+              <div class="container">
+                  <div class="row col-12">
+                      
+                      <p class="col-md-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore excepturi officia asperiores ut, exercitationem nemo est veritatis consectetur aperiam eaque natus optio consequuntur nobis officiis unde eos id amet voluptatibus.</p>
+                      
+                      <p class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores distinctio saepe blanditiis quod deleniti fuga quos perspiciatis pariatur, eum aspernatur quidem quibusdam minima aperiam. Alias vero suscipit amet nihil eius.</p>
+
+                  </div>
+   
+              </div>
+          
+
+            </div>
+
+        </div>
+        
+    </section>
+
+</div>
+
+                    <!-- Experiencias -->
+            <section id="Experiencias" class="expColor container-fluid">
+                
+            <div class="container">
+            <hr class="expHr"> 
+              <h1 class="fontExp text-center">Experiencia</h1>
+                  <div class="row">
+                            <div class="card-deck">
+                                <!-- CARTA 1-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/dmark.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> <!--FINAL MODAL-->
+                                  </div> <!-- FINAL Class CARD FOOTER-->
+                                </div> <!--FINAL CARD 1-->
+                                <!-- CARTA 2-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <!-- CARTA 3-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/iguana_page.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div> <!--FINAL CLASS CARD FOOTER-->
+                                </div> <!-- FINAL CLASE CARD-->
+                              </div>
+
+                              <div class="card-deck">
+                                  <!--CARTA 4-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/suricata.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div> <!-- FINAL CLASS CARD FOOTER-->
+                                </div> <!-- FINAL CLASE CARD-->
+
+                                <!-- CARTA 5-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/cuppon.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+
+                                <!-- CARTA 6-->
+                                <div class="card">
+                                  <img class="card-img-top" src="assets/img/ricomida.png" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                        Launch demo modal
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="card-img-top" src="assets/img/dudas.jpg" alt="Card image cap">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque voluptatibus voluptate in officiis, accusantium neque quibusdam laudantium minima nemo velit explicabo aut placeat itaque cumque recusandae aspernatur unde. Ut!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda ad rem repudiandae ex dolor. Quod aspernatur exercitationem, quo, voluptate dicta soluta, ea quidem natus facilis obcaecati nostrum sint consequatur!</p>
+                                             
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div> <!-- FINAL CARD FOOTER-->
+                                </div> <!-- FINAL CARTA 6-->
+                              </div> <!-- FINAL CARD DECK n2-->
+
+                              
+
+                  </div>
+
+             </div>
+            </section>
+
+
+
+           
+
+        
+
+
+
+
+
+
+
+
+
 
 
     <!-- jquery -->
