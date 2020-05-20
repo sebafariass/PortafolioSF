@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
  
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -18,7 +21,9 @@ position: fixed;
 
 }
 
-
+.card-title {
+    font-weight: bold;
+}
 
 .logo {
   color: #ffffff;
@@ -39,7 +44,7 @@ position: fixed;
 
 .ImagePrincipal { 
     text-align : right;
-    background-image: url(../img/bg_hero.png);
+    background-image: url(../img/paisaje.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,6 +65,7 @@ position: fixed;
 
    }
    .bioInfo { margin-top: 80px;
+    font-family: 'Special Elite', cursive;
            
 }
 
@@ -78,6 +84,21 @@ position: fixed;
     
 }
  
+/* Conoce mi circulo */
+
+ 
+    .circleHr {
+        height: 1px;
+        background-color: chocolate;
+    
+}
+
+#Circulo h1 { 
+    font-family: 'Special Elite', cursive;
+}
+
+
+
 
 /* carousel */ 
 
@@ -124,6 +145,14 @@ position: fixed;
     font-size: 50px;
     color: #303030;
     margin-bottom: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+@media (max-width: 500px) {
+    .fontExp {
+        font-size: 30px;
+        margin-top: 30px;
+    }
 }
 
   .showExp {
@@ -145,6 +174,13 @@ position: fixed;
   }
 
 
+/* typeform */
+
+.typeform-widget {
+    width: 100%;
+    height: 500px
+}
+
 
 
   /* FOOTER */
@@ -155,6 +191,8 @@ position: fixed;
         background-color: chocolate;}
       
   }
+
+
 
   @media (min-width:550px) {
     .divResp {
@@ -168,7 +206,10 @@ position: fixed;
 
   .footerHr{
     height: 1px;
-    background-color: chocolate;}
+    background-color: chocolate;
+    
+}
+    
 
     @media (max-width:550px) {
         .footerHr {

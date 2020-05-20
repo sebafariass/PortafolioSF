@@ -40,12 +40,3 @@ $(document).ready(function(){
 
 
 
-
-$(document).load(function() {
-  $(".loader").fadeOut("slow");
-});  
-
-
-
-/*  carga */ 
-
