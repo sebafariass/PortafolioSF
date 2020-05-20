@@ -96,7 +96,12 @@ position: fixed;
 #Circulo h1 { 
     font-family: 'Special Elite', cursive;
 }
-
+@media (max-width: 500px) {
+    #Circulo h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
 
 
 
@@ -125,6 +130,12 @@ position: fixed;
     height: 10px;
     border-radius: 50%; }
 
+
+.carrPrinci {
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+}
+
     /* Despliegue Fotos Viajes */
 
    .travel {
@@ -135,7 +146,12 @@ position: fixed;
    }
 
 
-
+   @media (max-width: 500px) {
+    .travel {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
 
 
 
