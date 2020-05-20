@@ -14,8 +14,10 @@ body {
 #PrincipalNav{
 background-color: rgb(18, 19, 41);
 color: #ffffff;
+position: fixed;
 
 }
+
 
 
 .logo {
@@ -68,7 +70,7 @@ color: #ffffff;
    }
 
    /* Seccion Inicio desaparece */
-   @media (max-width:560px) {
+   @media (max-width:550px) {
     #Biografia {
         display: none;
     }
@@ -78,6 +80,12 @@ color: #ffffff;
  
 
 /* carousel */ 
+
+@media (max-width:550px) {
+    #IdentityCarousel {
+        display: none;
+    }
+}
 
 #carouselExampleIndicators img {
     width: 233px ;
@@ -95,6 +103,20 @@ color: #ffffff;
     width: 10px;
     height: 10px;
     border-radius: 50%; }
+
+    /* Despliegue Fotos Viajes */
+
+   .travel {
+       margin-top: 30px;
+       font-family: 'Special Elite', cursive;
+       font-size: 50px;
+       text-align: center;
+   }
+
+
+
+
+
 
    /* experiencia */
 
@@ -115,7 +137,7 @@ color: #ffffff;
 
 
   
-  @media (max-width: 560px) {
+  @media (max-width: 550px) {
       .expHr {
           display: none
           ;
@@ -126,6 +148,34 @@ color: #ffffff;
 
 
   /* FOOTER */
+
+  @media (max-width:560px) {
+      .divResp {
+        height: 1px;
+        background-color: chocolate;}
+      
+  }
+
+  @media (min-width:550px) {
+    .divResp {
+      display: none;
+      height: 1px;
+      background-color: chocolate;}
+    
+}
+
+/* separador de seccion footer con typeform */
+
+  .footerHr{
+    height: 1px;
+    background-color: chocolate;}
+
+    @media (max-width:550px) {
+        .footerHr {
+            opacity: 0;
+        }
+    }
+
 
   .finfooter {
       font-size: 30px;
@@ -144,3 +194,24 @@ color: #ffffff;
     margin-left: 10px;}
   
     
+
+
+    /* ventanas modal */
+
+    .modal-body img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* boxes */
+    
+    .box {
+        width: 40px;
+        height: 40px;
+     
+    }
+
+   
+  
