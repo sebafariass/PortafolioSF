@@ -64,11 +64,14 @@ position: fixed;
        background-color: chocolate;
 
    }
-   .bioInfo { margin-top: 80px;
-    font-family: 'Special Elite', cursive;
+   .bioInfo  { margin-top: 80px;
+   
            
 }
 
+.bioInfo h1 {
+    font-family: 'Special Elite', cursive;
+}
    .parrafotext {
        margin-top: 20px;
        color: #303030;
