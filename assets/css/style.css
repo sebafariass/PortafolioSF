@@ -48,7 +48,7 @@ position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 200px 50px;
+    padding: 200px 5px;
     color: #ffffff;
     text-align: center;
     background-color: darkgray;
@@ -64,7 +64,8 @@ position: fixed;
        background-color: chocolate;
 
    }
-   .bioInfo  { margin-top: 80px;
+   .bioInfo  { margin-top: 50px;
+    padding: 20px;
    
            
 }
@@ -73,7 +74,7 @@ position: fixed;
     font-family: 'Special Elite', cursive;
 }
    .parrafotext {
-       margin-top: 20px;
+       margin-top: 5px;
        color: #303030;
        font-size: 50px;
    }
